@@ -12,16 +12,16 @@ public class DibujoPolares {
         //El angulo empieza en la parte superior de la vertical y va en sentido antihorario
 
 
-        if (angulo <= 0.25 || angulo >= 0.75) {
+        if (angulo <= 0.5 || angulo >= 0.5) {
             if (radio < 0.1) {
-                return new Color(147, 147, 147);
+                return new Color(255, 21, 34);
 
             }
-            if (radio > 0.1 && radio < 0.2) {
-                return new Color(136, 24, 246);
+            if (radio > 0.1 && radio < 0.7) {
+                return new Color(255, 21, 34);
 
             }
-            if (radio > 0.2 && radio < 0.3) {
+            /*if (radio > 0.2 && radio < 0.3) {
                 return new Color(21, 22, 255);
 
             }
@@ -44,10 +44,10 @@ public class DibujoPolares {
             if (radio > 0.7 && radio < 0.8) {
                 return new Color(255, 21, 34);
 
-            }
+            }*/
 
         }
-        return new Color(147, 147, 147);
+        return new Color(255, 255, 255);
     }
 
 
